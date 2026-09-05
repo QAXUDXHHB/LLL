@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "locked-y-bridge",
+  "version": "${version}",
+  "name": "Locked Y Bridge",
+  "description": "C toggles a client-side locked-Y automatic bridge builder.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.lockedybridge.LockedYBridgeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.6",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
